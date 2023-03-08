@@ -1,2 +1,2 @@
-# CP_Templates
+# CP Templates
 Templates for CP contests.
