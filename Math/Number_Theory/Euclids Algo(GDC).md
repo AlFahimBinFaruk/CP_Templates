@@ -17,7 +17,13 @@ int GCD(int a, int b)
 
 int main()
 {
-    cout << "GDC of 36,60 = " << GCD(36, 60) << endl;
+    int t;
+    cin >> t;
+    while(t--){
+        int x,y;
+        cin >> x >> y;
+		cout << "GDC of " << x << " " << y << " = " << GCD(x,y) << endl;
+    }
     return 0;
 }
 ```

@@ -1,25 +1,47 @@
 ### Catalan number
 ```c++
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+#define bigint long long int
 
-unsigned long int catalan(int n){
-	if(n <= 1){
-		return 1;
-	}
+/*
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+*/
+bigint findCatalan(int n)
+{
+    bigint b = 1;
 
-	unsigned long int res = 0;
-	for(int i=0; i<n; i++){
-		res += (catalan(i) * catalan(n-i-1));
-	}
+    // calculating n!
+    for (int i = 1; i <= n; i++)
+    {
+        b = b * i;
+    }
 
-	return res;
+    // calculating n! * n!
+    b = b * b;
+
+    bigint d = 1;
+
+    // calculating (2n)!
+    for (int i = 1; i <= 2 * n; i++)
+    {
+        d = d * i;
+    }
+
+    // calculating (2n)! / (n! * n!)
+    bigint ans = d / b;
+
+    // calculating (2n)! / ((n! * n!) * (n+1))
+    ans = ans / (n + 1);
+    return ans;
 }
 
+// Driver Code
 int main()
 {
-	cout << catalan(3);
-	return 0;
+    int n = 5;
+    cout << findCatalan(n);
 }
 ```
 - [Usage](https://www.youtube.com/watch?v=2NZF2UKyh0g);
