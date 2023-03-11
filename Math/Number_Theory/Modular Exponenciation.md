@@ -13,7 +13,6 @@ int power(long long x, unsigned int y, int p)
     int res = 1;
     x = x % p;
 
-    // in case x id divisible by p.
     if (x == 0)
     {
         return 0;
@@ -21,13 +20,10 @@ int power(long long x, unsigned int y, int p)
 
     while (y > 0)
     {
-        // if y is odd
         if (y & 1)
         {
             res = (res * x) % p;
         }
-
-        // we are sure that y is even.
         y = y >> 1; // y = y / 2
         x = (x * x) % p;
     }

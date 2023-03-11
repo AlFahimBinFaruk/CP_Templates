@@ -12,12 +12,9 @@ int gcdExtended(int a,int b,int* x,int* y){
         *y = 1;
         return b;
     }
-
-    // to store reccursion value
     int x1,y1;
     int gcd = gcdExtended(b % a, a, &x1, &y1);
 
-    // update x,y
     *x = y1 - (b/a) * x1;
     *y = x1;
 
