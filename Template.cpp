@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
+#define print(x) cout << "#case = " << #x << "\n";
 
 void solve()
 {
