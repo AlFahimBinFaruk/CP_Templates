@@ -2,7 +2,9 @@
 using namespace std;
 #define ll long long
 #define print(x) cout << "#case = " << #x << "\n";
-
+#define MAX_NUM 1e9
+#define YES cout << "YES" << "\n"
+#define NO cout << "NO" << "\n"
 void solve()
 {
    
