@@ -54,3 +54,5 @@ since a=b+g
 or b
 to determine the minimum number of operations.
  </details>
+ 
+ 6. If you want to append some number of zeros after an integer simply multiply the integer by 10^(number of zeros)
