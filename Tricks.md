@@ -56,3 +56,8 @@ to determine the minimum number of operations.
  </details>
  
  6. If you want to append some number of zeros after an integer simply multiply the integer by 10^(number of zeros)
+ 7. decimal multiplication technique.
+```cpp
+// int n=x*2.5 - dont give correct ans.
+int n=(x/2)*5 // right way.
+```
