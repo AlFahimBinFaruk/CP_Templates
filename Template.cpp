@@ -1,14 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define print(x) cout << "#case = " << #x << "\n";
-#define print(x) cout << x << "\n"
+#define ll long long int
+#define nl "\n"
+#define printT(x) cout << "#case = " << x << nl
+#define print(x) cout << x << nl
 #define MAX_NUM 1e9
-#define YES cout << "YES" << "\n"
-#define NO cout << "NO" << "\n"
+#define YES cout << "YES" << nl
+#define NO cout << "NO" << nl
+#define sort(x) sort(x.begin(), x.end())
+
 void solve()
 {
-   
+    
 }
 
 int main()
