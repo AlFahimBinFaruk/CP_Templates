@@ -61,3 +61,7 @@ to determine the minimum number of operations.
 // int n=x*2.5 - dont give correct ans.
 int n=(x/2)*5 // right way.
 ```
+8. If you always want to get number from 0-9
+```cpp
+int r=(num+1+10)%10;
+```
