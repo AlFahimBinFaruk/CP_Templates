@@ -11,7 +11,7 @@ using namespace std;
 
 void solve()
 {
-    
+    print("solving");   
 }
 
 int main()
@@ -19,10 +19,20 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-
-    int t;
-    cin >> t;
-    while (t--)
+#ifndef ONLINE_JUDGE
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+#endif
+    if (true)
+    {
+        int t;
+        cin >> t;
+        while (t--)
+        {
+            solve();
+        }
+    }
+    else
     {
         solve();
     }
