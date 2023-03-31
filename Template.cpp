@@ -11,7 +11,7 @@ using namespace std;
 
 void solve()
 {
-    print("solving");   
+    
 }
 
 int main()
@@ -20,21 +20,16 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 #ifndef ONLINE_JUDGE
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 #endif
-    if (true)
-    {
-        int t;
-        cin >> t;
-        while (t--)
-        {
-            solve();
-        }
-    }
-    else
+
+    int t;
+    cin >> t;
+    while (t--)
     {
         solve();
     }
+
     return 0;
 }
