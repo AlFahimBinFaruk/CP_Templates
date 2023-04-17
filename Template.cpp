@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+/***********************************************************
+************************/
 #define ll long long int
 #define nl "\n"
 #define printT(x,y) cout << "#For= " << x << " Value= " << y << nl
@@ -8,7 +10,11 @@ using namespace std;
 #define NO cout << "NO" << nl
 #define sort(x) sort(x.begin(), x.end())
 #define reverse(x) reverse(x.begin(), x.end())
+/***********************************************************
+************************/
+int ceil(int x,int y){return (x+y-1)/y;}
 const int maxn=1e6;
+/*----------------------------------------------------------------------------------------------------------------*/
 
 void solve(){
     
