@@ -6,15 +6,21 @@ using namespace std;
 #define nl "\n"
 #define printT(x,y) cout << "#For= " << x << " Value= " << y << nl
 #define print(x) cout << x << nl
+#define printArr(x) for(auto i:x) cout << i <<  " "
 #define YES cout << "YES" << nl
 #define NO cout << "NO" << nl
 #define sort(x) sort(x.begin(), x.end())
 #define reverse(x) reverse(x.begin(), x.end())
+#define maxe(x) *max_element(x.begin(),x.end())
+#define mine(x) *min_element(x.begin(),x.end())
 /***********************************************************
 ************************/
-int ceil(int x,int y){return (x+y-1)/y;}
+int ceil(int x,int y)
+{return (x+y-1)/y;}
 const int maxn=1e6;
-/*----------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------*/
+
+
 
 void solve(){
     
