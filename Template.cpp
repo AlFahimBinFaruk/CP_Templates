@@ -13,14 +13,13 @@ using namespace std;
 #define reverse(x) reverse(x.begin(), x.end())
 #define maxe(x) *max_element(x.begin(),x.end())
 #define mine(x) *min_element(x.begin(),x.end())
+#define takeArr(x) for(auto &i:x) cin >> i;
 /***********************************************************
 ************************/
-int ceil(int x,int y)
+ll ceil(ll x,ll y)
 {return (x+y-1)/y;}
 const int maxn=1e6;
 /*-------------------------------------------------------------------------------------------------*/
-
-
 
 void solve(){
     
