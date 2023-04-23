@@ -13,7 +13,8 @@ using namespace std;
 #define reverse(x) reverse(x.begin(), x.end())
 #define maxe(x) *max_element(x.begin(),x.end())
 #define mine(x) *min_element(x.begin(),x.end())
-#define takeArr(x) for(auto &i:x) cin >> i;
+#define takeArr(x) for(auto &i:x) cin >> i
+#define all(x) (x.begin(),x.end())
 /***********************************************************
 ************************/
 ll ceil(ll x,ll y)
