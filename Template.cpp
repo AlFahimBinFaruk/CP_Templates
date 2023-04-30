@@ -23,14 +23,12 @@ using namespace std;
 ************************/
 int ceil(int x,int y)
 {return (x+y-1)/y;}
-const int maxn=1e9+7;
-/*-------------------------------------------------------------------------------------------------*/
-void solve(){
-    
-}
-
-int main()
+long long lcm(int a, int b)
 {
+    return (a / __gcd(a, b)) * b;
+}
+const int maxn=1e4+7;
+void fastio(){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
@@ -38,6 +36,16 @@ int main()
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+void solve(){
+    
+}
+
+int main()
+{
+    fastio();
     int t;
     cin >> t;
     while(t--){
