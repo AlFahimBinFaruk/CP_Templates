@@ -19,6 +19,8 @@ using namespace std;
 #define unq(v)  v.resize(distance(v.begin(), unique(v.begin(), v.end())));
 #define tolower(x) transform(x.begin(), x.end(), x.begin(), ::tolower)
 #define toupper(x) transform(x.begin(), x.end(), x.begin(), ::toupper)
+#define find(arr,x) find(arr.begin(),arr.end(),x)
+#define count(arr,x) count(arr.begin(),arr.end(),x)
 // make sure to sort before applying unique // else only consecutive duplicates would be removed 
 #define bitc(x,y)  bitset<y>(x)
 // Function to convert binary to decimal
@@ -39,7 +41,7 @@ int binaryToDecimal(int n){
 ************************/
 int ceil(int x,int y){return (x+y-1)/y;}
 long long lcm(int a, int b){return (a / __gcd(a, b)) * b;}
-const int maxn=1e9+7;
+const int maxn=1e5+7;
 void fastio(){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
