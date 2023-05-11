@@ -65,3 +65,7 @@ int n=(x/2)*5 // right way.
 ```cpp
 int r=(num+1+10)%10;
 ```
+9. How many subarray you can create from an array?
+```cpp
+int subarrays=(n*(n+1))/2;
+```
