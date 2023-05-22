@@ -21,8 +21,9 @@ using namespace std;
 #define toUpper(x) transform(x.begin(), x.end(), x.begin(), ::toupper)
 #define cFind(arr,x) find(arr.begin(),arr.end(),x)
 #define cCount(arr,x) count(arr.begin(),arr.end(),x)
-// make sure to sort before applying unique // else only consecutive duplicates would be removed 
 #define bitc(x,y)  bitset<y>(x)
+#define mem(a , b) memset(a, b ,sizeof(a))
+#define fill(a,b,c) fill(a,a+b,c)
 /***********************************************************
 ************************/
 int ceil(int x,int y){return (x+y-1)/y;}
