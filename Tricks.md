@@ -69,3 +69,15 @@ int r=(num+1+10)%10;
 ```cpp
 int subarrays=(n*(n+1))/2;
 ```
+10.Use of n*(n-1)/2
+- Counting the number of ways to choose two items from a set of n items.
+  - If there are 4 people in a room, there are 6 ways to choose two of them to go out for coffee.
+- Calculating the number of possible paths between two points on a grid.
+  - If there are 5 houses on a street, there are 10 possible paths between any two houses.
+- Finding the total number of edges in a complete graph with n vertices.
+  - If there are 6 vertices in a complete graph, there are 15 edges.
+11. Use of !N.
+- Calculating the number of possible combinations of n items, where order matters.
+  - If there are 7 items, there are 7! = 5040 possible combinations of these items, where order matters.
+- Finding the total number of possible permutations of n items.
+  - If there are 8 items, there are 8! = 40320 possible permutations of these items.
