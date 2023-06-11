@@ -82,3 +82,9 @@ int subarrays=(n*(n+1))/2;
 - Finding the total number of possible permutations of n items.
   - If there are 8 items, there are 8! = 40320 possible permutations of these items.
 12. Number of way to choose subarray from an Array is 2^n.
+13. subarray and subsq are same but subarrys have to be contigious while subseq don't.
+```txt
+[1,2,3,4,5,6]
+1.subarray=[1,2,3],[2,3,4];
+2.subseq=[1,2,4],[4,6];
+```
