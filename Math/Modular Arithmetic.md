@@ -24,5 +24,6 @@ void solve(){
     // int num=10;
     // printT("MI",modInverse(num,mod));
     // print((modInverse(num,mod)*num)%mod);
-}```
+}
+```
 - [gfg](https://www.geeksforgeeks.org/modular-arithmetic/)
