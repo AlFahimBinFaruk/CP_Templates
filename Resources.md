@@ -7,3 +7,5 @@
 - [ ] [Bit manipulation](https://www.youtube.com/watch?v=d98t0fQrCGk)
 ### DP
 - [ ] [DP Basics](https://www.youtube.com/watch?v=ElbkXEMUIDM)
+### Binary search
+- [ ] [Beginners intro](https://www.youtube.com/watch?v=23643guTXMo)
