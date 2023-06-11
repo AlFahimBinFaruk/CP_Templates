@@ -1,3 +1,4 @@
+### Binary/Modular exponenciation.
 - suppose you want to calculate a^b you can't use traditional pow() in this case. so we will use BE which will calculate it in O(longN) time.
 - https://cp-algorithms.com/algebra/binary-exp.html
 ```cpp
