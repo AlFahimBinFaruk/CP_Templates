@@ -17,6 +17,7 @@
 ### DP
 - [X] [DP Basics](https://www.youtube.com/watch?v=ElbkXEMUIDM)
 - [ ] [DP-Luv](https://www.youtube.com/playlist?list=PLauivoElc3gimdmLcIIpafEkzGs4tCQmi)
+- [ ] [Kartik arora](https://www.youtube.com/playlist?list=PLb3g_Z8nEv1h1w6MI8vNMuL_wrI0FtqE7)
 - [ ] [Priyansh Agarwal](https://www.youtube.com/playlist?list=PLAj_13N2fk-RA6wvOUmWOyUeL9zmWFJoI)
 ### Binary search
 - [ ] [Beginners intro](https://www.youtube.com/watch?v=23643guTXMo)
