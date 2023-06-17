@@ -1,4 +1,4 @@
-## Resources
+# Resources
 ### Recursion
 ### 2 pointers.
 ### Sliding window. 
