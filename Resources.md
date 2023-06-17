@@ -11,6 +11,7 @@
 - [X] [Combinatorics](https://www.youtube.com/watch?v=angfL8_wQ7g)
 - [ ] [Comninatorics Noob to Expert](https://www.youtube.com/watch?v=le2enQgQ7Ws)
 - [ ] [Number Theory - Luv](https://www.youtube.com/playlist?list=PLauivoElc3giVROwL-6g9hO-LlSen_NaV)
+- [ ] [Kartik Arora](https://www.youtube.com/playlist?list=PLb3g_Z8nEv1i6NHntG5l2fPKuVu853EYy)
 ### Bitmask
 - [ ] [Bit manipulation](https://www.youtube.com/watch?v=d98t0fQrCGk)
 ### DP
@@ -19,3 +20,4 @@
 ### Binary search
 - [ ] [Beginners intro](https://www.youtube.com/watch?v=23643guTXMo)
 - [ ] [Binary search - Luv](https://www.youtube.com/playlist?list=PLauivoElc3gjE_s-7owHO0RVb_jj7Rx85)
+- [ ] [Kartik Arora](https://www.youtube.com/playlist?list=PLb3g_Z8nEv1jH8cmcMrx_6MuM_KC_LIan)
