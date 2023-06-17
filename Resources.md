@@ -2,6 +2,7 @@
 ### Recursion
 ### 2 pointers.
 ### Sliding window. 
+- [ ] [Aditya Verma](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj)
 ### Backtracking. 
 
 ### Math  
@@ -14,5 +15,7 @@
 - [ ] [Bit manipulation](https://www.youtube.com/watch?v=d98t0fQrCGk)
 ### DP
 - [X] [DP Basics](https://www.youtube.com/watch?v=ElbkXEMUIDM)
+- [ ] [DP-Luv](https://www.youtube.com/playlist?list=PLauivoElc3gimdmLcIIpafEkzGs4tCQmi)
 ### Binary search
 - [ ] [Beginners intro](https://www.youtube.com/watch?v=23643guTXMo)
+- [ ] [Binary search - Luv](https://www.youtube.com/playlist?list=PLauivoElc3gjE_s-7owHO0RVb_jj7Rx85)
