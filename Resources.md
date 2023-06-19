@@ -7,7 +7,7 @@
 
 ### Math  
 - [X] [Math For CP-1](https://www.youtube.com/watch?v=Ae6DPyviupg)
-- [ ] [Math For CP-2](https://www.youtube.com/watch?v=3VYMWlfMsaE)
+- [X] [Math For CP-2](https://www.youtube.com/watch?v=3VYMWlfMsaE)
 - [X] [Combinatorics](https://www.youtube.com/watch?v=angfL8_wQ7g)
 - [ ] [Comninatorics Noob to Expert](https://www.youtube.com/watch?v=le2enQgQ7Ws)
 - [ ] [Number Theory - Luv](https://www.youtube.com/playlist?list=PLauivoElc3giVROwL-6g9hO-LlSen_NaV)
