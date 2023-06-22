@@ -13,7 +13,9 @@
 - [ ] [Number Theory - Luv](https://www.youtube.com/playlist?list=PLauivoElc3giVROwL-6g9hO-LlSen_NaV)
 - [ ] [Kartik Arora](https://www.youtube.com/playlist?list=PLb3g_Z8nEv1i6NHntG5l2fPKuVu853EYy)
 ### Bitmask
-- [ ] [Bit manipulation](https://www.youtube.com/watch?v=d98t0fQrCGk)
+- [X] [Bit manipulation](https://www.youtube.com/watch?v=d98t0fQrCGk)
+- [ ] [Gelen Colin](https://youtu.be/1um-WUyjess)
+- [ ] [Gelen colin p2](https://www.youtube.com/live/UPVoGMZWQMU?feature=share)
 ### DP
 - [X] [DP Basics](https://www.youtube.com/watch?v=ElbkXEMUIDM)
 - [ ] [DP-Luv](https://www.youtube.com/playlist?list=PLauivoElc3gimdmLcIIpafEkzGs4tCQmi)
