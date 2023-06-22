@@ -9,7 +9,7 @@
 - [X] [Math For CP-1](https://www.youtube.com/watch?v=Ae6DPyviupg)
 - [X] [Math For CP-2](https://www.youtube.com/watch?v=3VYMWlfMsaE)
 - [X] [Combinatorics](https://www.youtube.com/watch?v=angfL8_wQ7g)
-- [ ] [Comninatorics Noob to Expert](https://www.youtube.com/watch?v=le2enQgQ7Ws)
+- [ ] [Expected value/probabilities,Comninatorics Noob to Expert](https://www.youtube.com/watch?v=le2enQgQ7Ws)
 - [ ] [Number Theory - Luv](https://www.youtube.com/playlist?list=PLauivoElc3giVROwL-6g9hO-LlSen_NaV)
 - [ ] [Kartik Arora](https://www.youtube.com/playlist?list=PLb3g_Z8nEv1i6NHntG5l2fPKuVu853EYy)
 ### Bitmask
