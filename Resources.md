@@ -23,5 +23,5 @@
 - [ ] [Priyansh Agarwal](https://www.youtube.com/playlist?list=PLAj_13N2fk-RA6wvOUmWOyUeL9zmWFJoI)
 ### Binary search
 - [X] [Beginners intro](https://www.youtube.com/watch?v=23643guTXMo)
-- [ ] [Binary search - Luv](https://www.youtube.com/playlist?list=PLauivoElc3gjE_s-7owHO0RVb_jj7Rx85)
+- [X] [Binary search - Luv](https://www.youtube.com/playlist?list=PLauivoElc3gjE_s-7owHO0RVb_jj7Rx85)
 - [ ] [Kartik Arora](https://www.youtube.com/playlist?list=PLb3g_Z8nEv1jH8cmcMrx_6MuM_KC_LIan)
