@@ -1,9 +1,7 @@
 ### Prime Factorization
-- Then, the following function factors constructs a vector that contains the prime factorization of n
-```c++
-#include <bits/stdc++.h>
-using namespace std;
-
+- Finding all the divisors of N that are prime.
+```cpp
+//Sqrt(N);
 vector<long long> fectorize(long long n)
 {
 	vector<long long> factorization;
@@ -19,21 +17,37 @@ vector<long long> fectorize(long long n)
 		factorization.push_back(n);
 	return factorization;
 }
-int main()
-{
-	int t;
-	cin >> t;
-	while (t--)
-	{
-		long long n;
-		cin >> n;
-		vector<long long> prime_factors = fectorize(n);
-		for (auto i : prime_factors)
-		{
-			cout << i << " ";
-		}
-		cout << "\n";
-	}
-	return 0;
-}
 ```
+
+```cpp
+const ll N=(ll)1e7+10;
+vector<ll>primes(N,1);
+vector<ll>lp(N,0),hp(N,0);
+void seive(){
+    primes[0]=primes[1]=0;
+    for(ll i=2;i<N;i++){
+        if(primes[i]==1){
+            lp[i]=hp[i]=i;
+            for(ll j=i*i;j<N;j+=i){
+                primes[j]=0;
+                if(lp[j]==0)lp[j]=i;
+                hp[j]=i;
+            }
+        }
+    }
+}
+void solve(){
+    int n;cin>>n;
+    unordered_map<int,int>factors;
+	//Log(N)
+    while(n>1){
+        int prime_factor=hp[n];
+        while(n%prime_factor==0){
+            n/=prime_factor;
+            factors[prime_factor]++;
+        }
+    }
+    for(auto it:factors){
+        cout<<it.first<<" = "<<it.second<<nl;
+    }
+}```
