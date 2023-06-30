@@ -1,4 +1,5 @@
 ## Notes.
+
 1. Odd number cannot be divided by even numbers.
 2. odd+odd=even.
 3. Smallest divisor of every number is a prime.
@@ -23,6 +24,7 @@ int c=lastIn-firstIn+1;
 ```cpp
 int m=min(a%gcd,gcd-a%gcd);
 ```
+
 <details>
 <summary>Proof</summary>
 Without loss of generality, assume a>b
