@@ -94,3 +94,9 @@ int subarrays=(n*(n+1))/2;
 1.subarray=[1,2,3],[2,3,4];
 2.subseq=[1,2,4],[4,6];
 ```
+
+13. ![Formula 1](/Images/1.png)
+
+14. ![Fromula 2](/Images/2.png)
+
+15. ![Formula 3](/Images/3.png)
