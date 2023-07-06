@@ -1,4 +1,4 @@
-### Modular arithmetic.
+### Modular multiplicative inverse.
 ```cpp
 const long long mod=1e9+7;
 long long binpow(long long a, long long b, long long m=mod) {
