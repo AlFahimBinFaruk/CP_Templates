@@ -100,3 +100,11 @@ int subarrays=(n*(n+1))/2;
 14. ![Fromula 2](/Images/2.png)
 
 15. ![Formula 3](/Images/3.png)
+
+16. (a*b)%M=((a%M)*(b%M))%M.
+
+17. (a+b)%M=((a%M)+(b%M))%M.
+
+18. (a-b)%M=((a%M)-(b%M)+M)%M.
+
+19. (a/b)%M=((a%M)*mod_inverse(b,M))%M.
