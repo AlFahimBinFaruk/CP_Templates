@@ -108,3 +108,5 @@ int subarrays=(n*(n+1))/2;
 18. (a-b)%M=((a%M)-(b%M)+M)%M.
 
 19. (a/b)%M=((a%M)*mod_inverse(b,M))%M.
+
+20. There always exists a power of 2 in the range [x,2x] for any positive integer x.
