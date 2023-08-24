@@ -110,3 +110,4 @@ int subarrays=(n*(n+1))/2;
 19. (a/b)%M=((a%M) * mod_inverse(b,M))%M.
 
 20. There always exists a power of 2 in the range [x,2x] for any positive integer x.
+21. In case of I'th and I+k th index I%K==(I+K)%K.
