@@ -50,4 +50,5 @@ void solve(){
     for(auto it:factors){
         cout<<it.first<<" = "<<it.second<<nl;
     }
-}```
+}
+```
