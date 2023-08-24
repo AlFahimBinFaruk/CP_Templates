@@ -101,7 +101,7 @@ int subarrays=(n*(n+1))/2;
 
 15. ![Formula 3](/Images/3.png)
 
-16. (a * b)%M=((a%M) * (b%M))%M.
+16. (a * b) % M=((a%M) * (b % M)) % M.
 
 17. (a+b)%M=((a%M)+(b%M))%M.
 
