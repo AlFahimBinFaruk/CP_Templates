@@ -1,4 +1,19 @@
 ### Prime Factorization
+- Finding all divisors of N.
+```cpp
+vector<int> allFactors(int x){
+    vector<int>res;
+    for(int i=2;i*i<=x;i++){
+        if(x%i==0){
+            res.push_back(i);
+            if(x/i!=i){
+                res.push_back(x/i);
+            }
+        }
+    }
+    return res;
+}```
+
 - Finding all the divisors of N that are prime.
 ```cpp
 //Sqrt(N);
