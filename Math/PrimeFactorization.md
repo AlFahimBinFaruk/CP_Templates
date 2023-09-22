@@ -1,5 +1,7 @@
 ### Prime Factorization
+
 - Finding all divisors of N.
+  
 ```cpp
 vector<int> allFactors(int x){
     vector<int>res;
@@ -16,6 +18,7 @@ vector<int> allFactors(int x){
 ```
 
 - Finding all the divisors of N that are prime.
+  
 ```cpp
 //Sqrt(N);
 vector<long long> fectorize(long long n)
