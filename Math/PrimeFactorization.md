@@ -12,7 +12,8 @@ vector<int> allFactors(int x){
         }
     }
     return res;
-}```
+}
+```
 
 - Finding all the divisors of N that are prime.
 ```cpp
