@@ -4,6 +4,7 @@
 - https://cp-algorithms.com/algebra/binary-exp.html
 
 ```cpp
+//log(b)
 const int mod=1e9+7;
 int binpow(int a, int b,int p=mod) {
     int res = 1;
