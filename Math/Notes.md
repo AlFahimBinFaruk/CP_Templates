@@ -87,7 +87,7 @@ int subarrays=(n*(n+1))/2;
   - If there are 7 items, there are 7! = 5040 possible combinations of these items, where order matters.
 - Finding the total number of possible permutations of n items.
   - If there are 8 items, there are 8! = 40320 possible permutations of these items.
-17. Number of way to choose subarray from an Array is 2^n.
+17. Number of way to choose subset from an Array is 2^n.
 18. subarray and subsq are same but subarrys have to be contigious while subseq don't.
 ```txt
 [1,2,3,4,5,6]
