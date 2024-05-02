@@ -21,21 +21,45 @@ vector<int> allFactors(int x){
   
 ```cpp
 //Sqrt(N);
-vector<long long> fectorize(long long n)
-{
-	vector<long long> factorization;
-	for (long long d = 2; d * d <= n; d++)
-	{
-		while (n % d == 0)
-		{
-			factorization.push_back(d);
-			n /= d;
-		}
-	}
-	if (n > 1)
-		factorization.push_back(n);
-	return factorization;
+vector<long long> trial_division1(long long n) {
+    vector<long long> factorization;
+    for (long long d = 2; d * d <= n; d++) {
+        while (n % d == 0) {
+            factorization.push_back(d);
+            n /= d;
+        }
+    }
+    if (n > 1)
+        factorization.push_back(n);
+    return factorization;
 }
+
+//if n==1e18+3
+//runtime is 999999999
+```
+
+```cpp
+//wheel factorization
+vector<long long> trial_division2(long long n) {
+    vector<long long> factorization;
+    while (n % 2 == 0) {
+        factorization.push_back(2);
+        n /= 2;
+    }
+    for (long long d = 3; d * d <= n; d += 2) {
+        while (n % d == 0) {
+            factorization.push_back(d);
+            n /= d;
+        }
+    }
+    if (n > 1)
+        factorization.push_back(n);
+    return factorization;
+}
+
+
+//if n==1e18+3
+//runtime is 500000000
 ```
 
 ```cpp
