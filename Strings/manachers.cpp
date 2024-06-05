@@ -1,4 +1,5 @@
 // O(2N)=> O(N)
+// for both even and odd length.
 int manacher_algo(string &s){
 
     int n=s.size();
