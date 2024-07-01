@@ -45,6 +45,7 @@ const int MOD1 = 127657753, MOD2 = 987654319;
 const int p1 = 137, p2 = 277;
 int ip1, ip2;
 pair<int, int> pw[N], ipw[N];
+// O(N)
 void prec() {
     pw[0] =  {1, 1};
     for (int i = 1; i < N; i++) {
@@ -65,6 +66,8 @@ struct Hashing {
     string s; // 0 - indexed
     vector<pair<int, int>> hs; // 1 - indexed
     Hashing() {}
+
+    // O(N)
     Hashing(string _s) {
         n = _s.size();
         s = _s;
@@ -76,6 +79,8 @@ struct Hashing {
             hs.push_back(p);
         }
     }
+
+    // O(1)
     pair<int, int> get_hash(int l, int r) { // 1 - indexed
         assert(1 <= l && l <= r && r <= n);
         pair<int, int> ans;
