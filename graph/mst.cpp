@@ -53,47 +53,40 @@ class Solution
 {
 	public:
 	//Function to find sum of weights of edges of the Minimum Spanning Tree.
-    int spanningTree(int V, vector<vector<int>> adj[])
-    {
-
-        DSU dsu(V);
-
-        vector<vector<int>>arr;
-
-        for(int i=0;i<V;i++){
-            for(auto brr:adj[i]){
-                vector<int>temp;
-                temp.push_back(brr[1]);
-                temp.push_back(i);
-                temp.push_back(brr[0]);
-                arr.push_back(temp);
-            }
-        }
-        sort(arr.begin(),arr.end());
-        
-        int cnt=0;
-
-        // conection more than v-1 edge will ultimately result in cycle so no need to check separetely.
-        for(int i=0;i<arr.size();i++){
-            int w=arr[i][0],a=arr[i][1],b=arr[i][2];
-
-            // if(dsu.find(a)!=dsu.find(b)){
-            //     dsu.unite(a,b);
-            //     cnt+=w;
-            // }
-            if(dsu.unite(a,b)){
-                cnt+=w;
-            }
-        }
-
-        return cnt;
-
-
-
-
-
-
-    };
+	int spanningTree(int V, vector<vector<int>> adj[]){
+	
+	        DSU dsu(V);
+	
+	        vector<vector<int>>arr;
+	
+	        for(int i=0;i<V;i++){
+	            for(auto brr:adj[i]){
+	                vector<int>temp;
+	                temp.push_back(brr[1]);
+	                temp.push_back(i);
+	                temp.push_back(brr[0]);
+	                arr.push_back(temp);
+	            }
+	        }
+	        sort(arr.begin(),arr.end());
+	        
+	        int cnt=0;
+	
+	        // conection more than v-1 edge will ultimately result in cycle so no need to check separetely.
+	        for(int i=0;i<arr.size();i++){
+	            int w=arr[i][0],a=arr[i][1],b=arr[i][2];
+	
+	            // if(dsu.find(a)!=dsu.find(b)){
+	            //     dsu.unite(a,b);
+	            //     cnt+=w;
+	            // }
+	            if(dsu.unite(a,b)){
+	                cnt+=w;
+	            }
+	        }
+	
+	        return cnt;
+	};
     
 };
 
