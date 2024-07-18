@@ -1,4 +1,3 @@
-// krushkals algo
 // https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1
 class DSU{
     int *parent;
@@ -52,7 +51,8 @@ class DSU{
 class Solution
 {
 	public:
-	//Function to find sum of weights of edges of the Minimum Spanning Tree.
+	// Time = O(E*logE)+O(E*logV) = O(E*logE) or O(E*logV)
+	// Space = O(E) + O(N)
 	int spanningTree(int V, vector<vector<int>> adj[]){
 	
 	        DSU dsu(V);
