@@ -5,8 +5,8 @@ using namespace std;
 
 class Solution
 {
-	public:
-	  // Time = O(E*logE)+O(E*logE) ~ O(E*logE)
+public:
+    // Time = O(E*logE)+O(E*logE) ~ O(E*logE)
     // Space = O(E)+O(V)
     int spanningTree(int V, vector<vector<int>> adj[])
     {
