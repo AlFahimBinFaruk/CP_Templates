@@ -30,3 +30,26 @@
     ]
 }
 ```
+
+## For Python
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python file",
+            "type": "shell",
+            "command": "python3",  // Or "python" depending on your OS
+            "args": [
+                "${file}"  // This will run the current file open in the editor
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Runs the currently opened Python file"
+        }
+    ]
+}
+```
